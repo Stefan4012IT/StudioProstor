@@ -281,7 +281,7 @@ h1 {
 
 .atmosfera-kao-vid-komunikacije {
     position: relative;
-    height: 35vw;
+    height: 50vw;
     width: 100%;
 }
 
@@ -330,7 +330,7 @@ h1 {
     position: absolute;
     width: 100%;
     height: 100%;
-    clip-path: polygon(58% 100%, 38% 24%, 48% 100%);
+    clip-path: polygon(68% 100%, 38% 32%, 58% 100%);
     background-color: #000;
 }
 
@@ -338,7 +338,7 @@ h1 {
 
 .section-features{
     position: relative;
-    height: 75vh;
+    height: 50vw;
     width: 100%;
     background-color: #f6f6f6;
     
@@ -346,6 +346,7 @@ h1 {
 .opis {
     position: absolute;
     width: 100%; 
+    height: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -357,19 +358,18 @@ h1 {
 }
 
 .opis-text1, .opis-text2 {
+    padding: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
 .opis-text1 {
-    padding-left: 10%;
     grid-column: 1/2;
     
 }
 
 .opis-text2 {
-    padding-right: 10%;
     grid-column: 3/4;
 }
 
